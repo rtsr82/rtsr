@@ -21,7 +21,19 @@ result :
    ./output
 
 
-Environment (conda list)
+
+
+
+
+
+
+
+
+
+
+
+Running Environment (conda list)
+
 _anaconda_depends         5.2.0                    py36_3    anaconda
 _libgcc_mutex             0.1                        main  
 _tflow_190_select         0.0.1                       gpu    anaconda
