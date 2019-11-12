@@ -1,7 +1,7 @@
 # rtsr
 recurrently trained super-resolution
 
-you can do with out setting a data and just doing test with sample : (1/20 of DIV2K)
+you can do with out setting a data and just doing test with sample : (5% of DIV2K)
 
 if you want to run with full data :
 
