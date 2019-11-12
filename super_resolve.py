@@ -14,7 +14,7 @@ parser.add_argument('--input_image', type=str, required=True, help='input image 
 parser.add_argument('--model', type=str, required=True, help='model file to use')
 parser.add_argument('--output_filename', type=str, help='where to save the output image')
 parser.add_argument('--cuda', action='store_true', help='use cuda')
-parser.add_argument('--network', type=float, default='rtsr', help='Network Setlection')
+parser.add_argument('--network', type=str, default='rtsr', help='Network Setlection')
 
 opt = parser.parse_args()
 
