@@ -5,11 +5,19 @@ you can do with out setting a data and just doing test with sample : (1/20 of DI
 
 if you want to run with full data :
 
-  1. make 100 image crops per a DIV2K train image
+  1. SET HR
+    
+    make 100 image crops per a DIV2K train image
     -> positioning them ./dataset/DIV2K_train_HR/images/train_crop_sr
-  2. compress them
-    -> positioning them ./dataset/DIV2K_train_HR/images/compressed_train_crop_png
-  3. set image you want to SR
+  
+  2. SET LR 
+  
+    compress them
+    -> positioning them ./dataset/DIV2K_train_HR/images/compressed_train_crop_png 
+
+  3. SET TEST Image (Valid SET)
+    
+    set image you want to SR
     -> positioning them ./dataset/DIV2K_train_HR/images/valid_sr
 
 runing : 
