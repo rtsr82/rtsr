@@ -1,9 +1,9 @@
 # rtsr
-recurrently trained super-resolution
+<h2> recurrently trained super-resolution </h2>
 
-you can do with out setting a data and just doing test with sample : (5% of DIV2K)
+<h3> you can do with out setting a data and just doing test with sample : (5% of DIV2K) </h3>
 
-if you want to run with full data :
+<h3> if you want to run with full data : </h3>
 
   1. SET HR
     
@@ -20,17 +20,17 @@ if you want to run with full data :
     set image you want to SR
     -> positioning them ./dataset/DIV2K_train_HR/images/valid_sr
 
-runing : 
+<h3> runing : </h3> 
   sh ./run_all.sh (rtsr / srcnn / srresnet / vdsr / edsr)
   
   ex) sh ./run_all.sh rtsr
 
-result : 
+<h3> result : </h3>
    ./output
 
 
 
-sh batched for 12G GPU-Ram
+<h4> sh batched for 12G GPU-Ram </h4>
 
 
 
