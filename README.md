@@ -1,7 +1,8 @@
 # rtsr
 <h2> recurrently trained super-resolution </h2>
 The key to this algorithm is run_all.sh, not the python file.
-In  each  stageof  the  proposed  learning  scheme,  a  new  target  for  train-ing  is  obtained  by  applying  the  most  recently  trained  SRnetwork to the original image and downscaling the resul-tant SR image to normalize the size. Even if downscalingis applied, we argue that the downscaled SR image acts asa better target compared to the old target. 
+
+In  each  stage of  the  proposed  learning  scheme,  a  new  target  for  train-ing  is  obtained  by  applying  the  most  recently  trained  SRnetwork to the original image and downscaling the resultant SR image to normalize the size. Even if downscalingis applied, we argue that the downscaled SR image acts asa better target compared to the old target. 
 
 <h3> you can do with out setting a data and just doing test with sample : (5% of DIV2K) </h3>
 
