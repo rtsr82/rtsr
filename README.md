@@ -22,7 +22,7 @@ result :
 
 
 
-
+sh batched for 12G GPU-Ram
 
 
 
