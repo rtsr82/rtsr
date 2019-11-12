@@ -26,8 +26,8 @@ do
     for file in ./dataset/DIV2K_train_HR/images/train_crop_sr/1/*
     do
         name=${file##*/}
-        end0=${file##*9.png}
-        end1=${file##*9.png}
+        end0=${file##*4.png}
+        end1=${file##*4.png}
         end2=${file##*9.png}
         end3=${file##*9.png}
         end4=${file##*9.png}
