@@ -2,7 +2,7 @@ python main.py --network $1 --upscale_factor 2 --batchSize 8 --testBatchSize 100
 
 mkdir "./output"
 
-for i in 2 3 4 5 6 7 8
+for i in 2 3 4 5
 do
     mkdir "./dataset/DIV2K_train_HR/images/train_crop_sr/$i"
 
