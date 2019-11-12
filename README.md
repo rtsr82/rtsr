@@ -26,13 +26,8 @@ result :
 
 
 
-
-
-
-
-
-
-Running Environment (conda list)
+<details>
+ <summary> Running Environment (conda list)</summary>
 
 _anaconda_depends         5.2.0                    py36_3    anaconda
 _libgcc_mutex             0.1                        main  
@@ -310,4 +305,4 @@ yaml                      0.1.7                had09818_2
 zeromq                    4.2.5                h439df22_0  
 zict                      0.1.3            py36h3a3bf81_0  
 zlib                      1.2.11               ha838bed_2  
-
+</details>
