@@ -1,4 +1,4 @@
-python main.py --network $1 --upscale_factor 2 --batchSize 8 --testBatchSize 100 --nEpochs 20 --lr 0.001 --lr_dec 0.85 --cuda --sr_run 1
+python main.py --network $1 --upscale_factor 2 --batchSize 8 --network rtsr --testBatchSize 100 --nEpochs 20 --lr 0.001 --lr_dec 0.85 --cuda --sr_run 1
 
 mkdir "./output"
 
@@ -41,5 +41,5 @@ do
     mkdir train_weight_sr$i
     cp ./*.pth ./train_weight_sr$i
 
-    python main.py --network $1 --upscale_factor 2 --batchSize 8 --testBatchSize 100 --nEpochs 20 --lr 0.001 --lr_dec 0.85 --cuda --sr_run $i
+    python main.py --network $1 --upscale_factor 2 --batchSize 8 --network rtsr --testBatchSize 100 --nEpochs 20 --lr 0.001 --lr_dec 0.85 --cuda --sr_run $i
 done
